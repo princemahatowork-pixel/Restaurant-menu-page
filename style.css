@@ -164,7 +164,7 @@ h4 {
     align-items: center;
     border-radius: 20px;
     border: none;
-    box-shadow: -3px -3px;
+    box-shadow: 0px 0px 10px 2px rgb(58, 55, 55);
 
 }
 .menu p {
@@ -174,7 +174,7 @@ h4 {
     margin-top: 15px;
     color: rgba(12, 0, 0, 0.863);
 }
-.biryani {
+.dishes {
     height: 200px;
     width: 200px;
     margin-top: 20px;
@@ -182,94 +182,11 @@ h4 {
     background:#B7B89F;
     border: none;
     border-radius: 10px;
+    box-shadow: 0px 0px 25px 2px rgb(43, 38, 38);
+    transition: transform 0.3s;
 }
-.butter-chicken {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
-}
-.chole-bhature {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
-}
-.panner-tika {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
-}
-.dosa {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
-}
-.idli {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
-}
-.fish-curry {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
-}
-.mishti-doi {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
-}
-.litti-chokha {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
-}
-.vada-pav {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
-}
-.gulab-jamun {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
-}
-.samosa {
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
-    background:#B7B89F;
-    border-radius: 10px;
+.dishes:hover{
+    transform: scale(1.05);
 }
 .menu a {
     text-decoration: none;
