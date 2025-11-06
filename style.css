@@ -241,8 +241,12 @@ ul {
     color: white;
     text-decoration: none;
 }
+.move:hover {
+    transform: translateX(20px);
+}
 .foot-content li {
     margin-top: 5%;
+    transition: transform 0.3s;
 }
 .icons {
     display: inline-block;
