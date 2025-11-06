@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    background-image: url("hero-Picsart-AiImageEnhancer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 60px;
+    color: aliceblue;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background: rgb(177, 176, 176);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 30px 30px;
+}
+.restaurant-logo{
+    height:100px;
+    width: 200px;
+    background-image: url("logo-removebg-preview.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content {
+    margin-right: 30px;
+}
+.content a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: beige;
+    justify-content: space-evenly ;
+}
+.details {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+h1 {
+    color: rgb(6, 192, 199);
+    font-size: 50px;
+    font-family:sans-serif;
+}
+.details p {
+    font-size: 1rem;
+    width: 380px;
+    margin-top: 10px;
+    justify-content: start;
+    text-align: justify;
+}
+.details button {
+    color: antiquewhite;
+    background: orange ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 4px gray;
+}
+.services {
+    position: relative;
+    top: 510px;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    background:#842A3B;
+}
+.fast-delivery {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    background: red;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.services p {
+    margin-top: 30px;
+    font-size: 1rem;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    
+}
+.quick-takeout {
+    height: 200px;
+    width: 400px;
+    background: green;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.meal-deals {
+    height: 200px;
+    width: 400px;
+    background: blue;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.latenightservices {
+    height: 200px;
+    width: 400px;
+    background:orange;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+h3 {
+    position: relative;
+    top: 509px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    height: 100px;
+    width: 100%;
+    background: burlywood;
+}
+.services img {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 30%;
+    border-radius: 20px;
+}
+h4 {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    background-color: cadetblue;
+    top: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.menu {
+    height: 750px;
+    width: 100%;
+    background-color:#777C6D;
+    display: flex;
+    position: absolute;
+    top: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+.menu img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -3px -3px;
+
+}
+.menu p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    color: rgba(12, 0, 0, 0.863);
+}
+.biryani {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 50px;
+    background:#B7B89F;
+    border: none;
+    border-radius: 10px;
+}
+.butter-chicken {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.chole-bhature {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.panner-tika {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.dosa {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.idli {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.fish-curry {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.mishti-doi {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.litti-chokha {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.vada-pav {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.gulab-jamun {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.samosa {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background:#B7B89F;
+    border-radius: 10px;
+}
+.menu a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 800;
+}
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: #393E46;
+    position: relative;
+    top: 1340px;
+    color: white;
+}
+ul {
+    list-style: none;
+    
+}
+.foot-content a {
+    color: white;
+    text-decoration: none;
+}
+.foot-content li {
+    margin-top: 5%;
+}
+.icons {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.foot-content p {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+}
+.foot-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+}
