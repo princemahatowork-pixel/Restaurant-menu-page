@@ -55,12 +55,19 @@ h1 {
     text-align: justify;
 }
 .details button {
-    color: antiquewhite;
+    color: azure;
     background: orange ;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
-    box-shadow: 2px 4px gray;
+    box-shadow: 0px 0px 8px 5px rgb(143, 107, 49);
+    letter-spacing: 0.1vw;
+    transition: transform 0.5s ,background-color 0.5s, box-shadow 0.5s ;
+}
+#reservation:hover {
+    background-color: rgb(27, 201, 27);
+    box-shadow: 0px 0px 8px 5px green;
+    transform: scale(1.10);
 }
 .services {
     position: relative;
